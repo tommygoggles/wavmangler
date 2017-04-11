@@ -1,2 +1,7 @@
 language: cpp
-script: pwd && ls && cmake . && make
+
+compiler:
+  - clang
+  - gcc
+  
+script: pwd && ls && cmake . && make && ls
