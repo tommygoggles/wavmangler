@@ -2,7 +2,7 @@
 #CMake can, of course, be installed as part of Cygwin.
 #errors with the cmake-gui may be down to it not finding the compiler... tried visual studio 64 bit 2014? ok?
 
-cmake_minimum_required(VERSION 2.8.9)
+cmake_minimum_required(VERSION 2.8.7)
 
 
 #The project command names your project. Optionally you can specify what language the project supports, any of CXX, C, JAVA, or FORTRAN. 
